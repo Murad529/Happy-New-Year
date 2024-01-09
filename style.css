@@ -5,7 +5,7 @@
   margin: 50px 100px; 
   background:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
   background-image: url(./Image/Banner\ Image.png);
-     
+  background-repeat: no-repeat;  
 }
 .banner p{
   color: #fff;
@@ -46,5 +46,156 @@
   margin: 360px;
  }
 
+.party{
+  display: flex;
+  position: relative;
+  background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); ;
+  background-image: url(./Image/Vectorrr.png);
+  height: 600px;
+  width: 1320px;
+  padding:150px 250px;
+  margin:50px 100px;
+  background-repeat: no-repeat;
+}
+.party h3{
+  color:#fff;
+  font-size: 64px;
+  font-weight: 900;
+}
+.party p{
+  color:rgba(255, 255, 255, 0.80);
+  font-size: 18px;
+  font-weight: 400;
+}
+.party button{
+  color:#fff;
+  background-color: transparent;
+}
+.child{
+  position: relative;
+  bottom: 100px;
+  left: 100px;
+}
+.box{
+background-color: #FFF8F3;
+text-align: center;
+color:black;
+font-size: 32px;
+font-weight: 600;
+margin-left: 80px;
+margin-right: 65px;
+padding-top: 100px;
+padding-bottom: 200px;
+}
+ .red{
+  color:#F00;
+ }
+ .box button{
+  border-radius: 5px;
+  background: #F00;
+  border: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color:#fff;
+  padding: 16px 32px;
 
- 
+
+ }
+ .flex{
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+ }
+ .left-flex h4{
+  font-size:24px;
+  font-weight:500;
+  text-align: left;
+ }
+ .left-flex h2{
+  font: size 48px;
+  font-weight: 900;
+  text-align: left;
+ }
+ .left-flex p{
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+ }
+.middle-flex{
+  border-radius: 50%;
+  border: 10px solid #F00;
+  padding:10px;
+}
+
+ .right-flex h2{
+  font-size:48px;
+  font-weight: 700;
+  text-align: left;
+  padding-left: 100px;
+ }
+.right-flex p{
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  padding-left: 100px;
+}
+.day h4{
+  font-size: 24px;
+  font-weight: 500;
+}
+.day h2{
+  font-size: 72px;
+  font-weight: 900;
+}
+.day p{
+  font-size: 20px;
+  font-weight: 500;
+}
+.awesome h4{
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 80px;
+}
+.awesome h2{
+  font-size: 48px;
+  font-weight: 900;
+  margin-left: 80px;
+}
+.awesome p{
+  color:rgba(7, 2, 17, 0.60);
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 80px;
+}
+.gifts{
+  display: flex;
+  margin-left:80px;
+  width:32%;
+}
+.gift{
+  display: flex;
+  margin-left: 80px;
+  width: 32%;
+}
+.gifts img{
+  margin: 6px;
+  
+}
+.gift img{
+  margin:6px;
+}
+.email{
+  background-color: #FFF8F3;
+  margin-left: 80px;
+  margin:60px;
+  text-align: center;
+}
+.email h2{
+  font-size: 48px;
+  font-weight: 900;
+}
+.email p{
+  font-size: 20px;
+  font-weight: 400;
+
+}
